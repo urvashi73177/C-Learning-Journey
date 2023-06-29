@@ -1,0 +1,10 @@
+Q- when to use for loop?
+A for loop is typically used when you know the number of iterations in advance. It consists of three parts: initialization, condition, and increment/decrement. The loop will continue executing until the condition becomes false.
+
+Q- When to use while loop ? 
+A while loop is used when you want to repeat a block of code until a certain condition is met. The condition is evaluated before executing the loop, and the loop continues as long as the condition is true.
+
+Q- When to use DoWhile loop ?
+Python doesn't have a built-in do-while loop like some other programming languages. However, you can achieve similar functionality using a while loop with a conditional statement that determines whether to continue or exit the loop.
+
+//Remember that the choice of loop construct depends on the problem and specific requirements. Use a for loop when you know the number of iterations, a while loop when the number of iterations is uncertain, and emulate a do-while loop using a while loop when you want to ensure the code block executes at least once before checking the condition.
