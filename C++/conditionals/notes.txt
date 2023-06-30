@@ -1,0 +1,60 @@
+Following are the decision-making statements available in C or C++:
+if Statement
+if-else Statement
+Nested if Statement
+if-else-if Ladder
+switch Statement
+Conditional Operator
+Jump Statements: 
+break
+continue
+goto
+return
+
+----------------------------------------------------------------
+
+1) IF Statement - t is used to decide whether a certain statement or block of statements will be executed or not i.e if a certain condition is true then a block of statements is executed otherwise not. 
+
+Syntax of if Statement
+if(condition) 
+{
+   // Statements to execute if
+   // condition is true
+}
+
+________________________________________________________________    
+
+2) if-else in C/C++ --> The if statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else when the condition is false? 
+The if-else statement consists of two blocks, one for false expression and one for true expression.
+
+Syntax of if else in C/C++
+if (condition)
+{
+    // Executes this block if
+    // condition is true
+}
+else
+{
+    // Executes this block if
+    // condition is false
+}
+
+________________________________________________________________
+
+3. Nested if-else in C/C++
+A nested if in C is an if statement that is the target of another if statement. Nested if statements mean an if statement inside another if statement. Yes, both C and C++ allow us to nested if statements within if statements, i.e, we can place an if statement inside another if statement.
+
+Syntax of Nested if-else
+if (condition1) 
+{
+   // Executes when condition1 is true
+   if (condition2) 
+   {
+      // Executes when condition2 is true
+   }
+   else
+   {
+         // Executes when condition2 is false
+}
+
+________________________________________________________________

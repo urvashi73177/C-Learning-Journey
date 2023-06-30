@@ -1,0 +1,24 @@
+Q- What is STL ? 
+ STL stands for the Standard Template Library, which is a library in C++ that provides a collection of container classes, algorithms, and iterators. An STL container is a class template that provides a way to store and organize multiple objects of a certain type.
+
+ STL containers offer various data structures with different characteristics, allowing you to choose the most appropriate container for your specific needs. Here are some commonly used STL containers:
+
+Vector: A dynamic array that can resize itself automatically when elements are added or removed. It provides random access and efficient insertion and deletion at the end.
+
+List: A doubly-linked list that allows efficient insertion and deletion at any position. It does not provide random access but supports bidirectional traversal.
+
+Deque: A double-ended queue that allows efficient insertion and deletion at both ends. It provides random access similar to vectors.
+
+Stack: A container that follows the Last-In-First-Out (LIFO) principle. It provides operations like push (add element), pop (remove element), and top (access the top element).
+
+Queue: A container that follows the First-In-First-Out (FIFO) principle. It provides operations like enqueue (add element), dequeue (remove element), and front (access the front element).
+
+Set: A container that stores unique elements in a sorted order. It provides efficient search, insertion, and deletion operations.
+
+Map: A container that stores key-value pairs. It allows efficient search, insertion, and deletion based on the key.
+
+Unordered Set: Similar to the set, but the elements are not sorted. It provides faster average search, insertion, and deletion operations.
+
+Unordered Map: Similar to the map, but the elements are not sorted based on the key. It provides faster average search, insertion, and deletion operations.
+
+These are just a few examples of the STL containers available in C++. Each container offers different capabilities and performance characteristics, allowing you to choose the appropriate one based on your specific requirements.

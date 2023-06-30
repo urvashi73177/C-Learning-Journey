@@ -20,6 +20,8 @@ void myArray()
     {
         cout << i << " ";
     }
+
+    cout<<"\n";
 }
 
 void myNumber()
@@ -29,11 +31,20 @@ void myNumber()
         cout << "Namaste C++"
              << "\n";
     }
+    cout <<"\n";
 }
 
 void sumOfNums(){
     for(int i=0 , j=10, k=20 ; (i+j+k)<100 ; j++, k--, i+=k){
         cout << "\n" << i << " "<< j << " "<< k << "\n";
+    }
+    cout << "\n";
+}
+
+void declaredVar(){
+    int i = 99;
+    for(int i =0; i<5 ; i++){
+        cout << i << "\t";
     }
 }
 
@@ -42,5 +53,6 @@ int main()
     myNumber();
     myArray();
     sumOfNums();
+    declaredVar();
     return 0;
 }
