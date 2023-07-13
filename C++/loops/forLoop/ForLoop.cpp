@@ -13,6 +13,13 @@ for (initialization expr; test expr; update expr)
 #include <iostream>
 using namespace std;
 
+
+void forloopExperiment(){
+    for(int a =0 , b=1 ; a>=0, b>=0; a-- , b--){
+        cout<<a << "yay "<< b << endl;
+    }
+}
+
 void myArray()
 {
     int arr[] = {1, 2, 3, 4, 5};
@@ -54,5 +61,6 @@ int main()
     myArray();
     sumOfNums();
     declaredVar();
+    forloopExperiment();
     return 0;
 }

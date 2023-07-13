@@ -1,0 +1,69 @@
+
+What are operators in C?
+Operators in C are certain symbols in C used for performing certain mathematical, relational, bitwise, conditional, or logical operations for the user.
+
+What is the difference between the ‘=’ and ‘==’ operators?
+‘=’ is a type of assignment operator that places the value in right to the variable on left, Whereas ‘==’ is a type of relational operator that is used to compare two elements if the elements are equal or not.
+
+What is the difference between prefix and postfix operators in C?
+Prefix operations are the operations in which the value is returned prior to the operation whereas in postfix operations value is returned after updating the value in the variable.
+
+Example:
+b=c=10;
+a=b++;    // a==10
+a=++c;    // a==11
+
+What is the Modulo operator?
+The Modulo operator(%) is used to find the remainder if one element is divided by another.
+
+Example:
+a % b (a divided by b)
+5 % 2 == 1
+
+
+Types of Operators in C
+C has many built-in operators and can be classified into 6 types:
+
+Arithmetic Operators - These operators are used to perform arithmetic/mathematical operations on operands. Examples: (+, -, *, /, %,++,–). Arithmetic operators are of two types: 
+
+
+Relational Operators => These are used for the comparison of the values of two operands (a<b)
+
+Logical Operators- Logical Operators are used to combining two or more conditions/constraints or to complement the evaluation of the original condition in consideration. The result of the operation of a logical operator is a Boolean value either true or false. (cout<<((4 != 5) && (4 < 5));     // true)
+
+
+Bitwise Operators- The Bitwise operators are used to perform bit-level operations on the operands. The operators are first converted to bit-level and then the calculation is performed on the operands. (int a = 5, b = 9;   // a = 5(00000101), b = 9(00001001)
+cout << (a ^ b);   //  00001100
+cout <<(~a);       // 11111010)
+
+Assignment Operators- Assignment operators are used to assign value to a variable. The left side operand of the assignment operator is a variable and the right side operand of the assignment operator is a value (a'='b)
+
+Different types of assignment operators are shown below: 
+
+“+=”
+This operator is the combination of the ‘+’ and ‘=’ operators. This operator first adds the current value of the variable on left to the value on the right and then assigns the result to the variable on the left. 
+Example:
+
+(a += b) can be written as (a = a + b)
+If initially value stored in a is 5. Then (a += 6) = 11.
+
+“-=” 
+This operator is a combination of ‘-‘ and ‘=’ operators. This operator first subtracts the value on the right from the current value of the variable on left and then assigns the result to the variable on the left. 
+Example:
+
+(a -= b) can be written as (a = a - b)
+If initially value stored in a is 8. Then (a -= 6) = 2.
+
+“*=” 
+This operator is a combination of the ‘*’ and ‘=’ operators. This operator first multiplies the current value of the variable on left to the value on the right and then assigns the result to the variable on the left. 
+Example:
+
+(a *= b) can be written as (a = a * b)
+If initially, the value stored in a is 5. Then (a *= 6) = 30.
+
+
+“/=”
+This operator is a combination of the ‘/’ and ‘=’ operators. This operator first divides the current value of the variable on left by the value on the right and then assigns the result to the variable on the left. 
+
+Other Operators
+

@@ -1,0 +1,1 @@
+ // cout << "This is outside the scope"<<b<<endl;
